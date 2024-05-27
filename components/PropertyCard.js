@@ -18,6 +18,7 @@ const PropertyCard = ({
   adults,
   selectedDates,
   availableRooms,
+  nights
 }) => {
   const { width, height } = Dimensions.get("window");
   const navigation = useNavigation();
@@ -35,6 +36,7 @@ const PropertyCard = ({
         children:children,
         rooms:rooms,
         selectedDates:selectedDates,
+        nights:nights
       })}
         style={{ margin: 15, flexDirection: "row", backgroundColor: "white" }}
       >
@@ -96,7 +98,7 @@ const PropertyCard = ({
           </Text>
 
           <Text style={{ marginTop: 4, fontSize: 15, fontWeight: "500" }}>
-            Price for 1 Night and {adults} adults
+            Price for {nights}1 Night and {adults} adults
           </Text>
           <View
             style={{

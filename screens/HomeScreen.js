@@ -30,6 +30,7 @@ const HomeScreen = () => {
   const [adults, setAdults] = useState(2);
   const [children, setChildren] = useState(0);
   const [modalVisibile, setModalVisibile] = useState(false);
+  const [nights, setNights] = useState(3);
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -94,7 +95,8 @@ const HomeScreen = () => {
         adults:adults,
         children:children,
         selectedDates:selectedDates,
-        place:place
+        place:place,
+        nights:nights,
       })
     }
   };
@@ -181,6 +183,7 @@ const HomeScreen = () => {
                 allowFontScaling={false}
                 placeholder={"Select Your Dates"}
                 mode={"range"}
+                onPress={() => setNights(Math.max(1, nights - 1))}
               />
             </Pressable>
 

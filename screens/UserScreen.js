@@ -59,6 +59,7 @@ const UserScreen = () => {
         rating: route.params.rating,
         startDate: route.params.startDate,
         endDate: route.params.endDate,
+        nights: route.params.nights
       });
     }
   };
