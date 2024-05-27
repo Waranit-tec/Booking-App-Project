@@ -113,10 +113,10 @@ const PropertyCard = ({
                 textDecorationLine: "line-through",
               }}
             >
-              {property.oldPrice * adults}
+              {property.oldPrice }
             </Text>
             <Text style={{ fontSize: 18 }}>
-              Rs {property.newPrice * adults}
+              THB {property.newPrice }
             </Text>
           </View>
 

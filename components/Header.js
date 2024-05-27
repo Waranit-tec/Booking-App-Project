@@ -44,7 +44,7 @@ const Header = () => {
           
         }}
       >
-       <Ionicons name="ios-airplane-outline" size={26} color="white" />
+       <Ionicons name="airplane" size={26} color="white" />
         <Text
           style={{
             marginLeft: 8,

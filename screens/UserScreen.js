@@ -130,14 +130,14 @@ const UserScreen = () => {
                 textDecorationLine: "line-through",
               }}
             >
-              {route.params.oldPrice * route.params.adults}
+              {route.params.oldPrice}
             </Text>
             <Text style={{ fontSize: 20 }}>
-              Rs {route.params.newPrice * route.params.adults}
+              THB {route.params.newPrice}
             </Text>
           </View>
           <Text>
-            You Saved {route.params.oldPrice - route.params.newPrice} rupees
+            You Saved {route.params.oldPrice - route.params.newPrice} bath
           </Text>
         </View>
         <Pressable

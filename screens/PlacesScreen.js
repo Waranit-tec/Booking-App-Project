@@ -21,72 +21,73 @@ const PlacesScreen = () => {
   const data = [
     {
       id: "0",
-      place: "Bangalore",
+      place: "Khao Yai",
       placeImage:
-        "https://images.pexels.com/photos/7630190/pexels-photo-7630190.jpeg?auto=compress&cs=tinysrgb&w=800",
-      shortDescription: "City in Karnataka, India",
+        "https://mpics.mgronline.com/pics/Images/561000007345201.JPEG",
+      shortDescription: "The first National Park in Thailand",
       properties: [
         {
           id: "10",
-          name: "FabHotel Zeke",
+          name: "Rancho Charnvee Resort and Country Club",
           image:
-            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845616.jpg?k=87bc315f35830189d9a1c935c3e167e648543c27f39ee4cafc5cf73ee24393b9&o=&hp=1",
-          rating: 3.6,
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/59259089.jpg?k=2e6dce4614036ea57496ee5b4514df0d678bf054e88f639f464d68719bc81538&o=&hp=1",
+          rating: 8.6,
           address:
-            "346, Hennur Main Road, Post, Kalyan Nagar, 560043 Bangalore, India ",
-          oldPrice: 4600,
-          newPrice: 3312,
-          latitude: "13.0359",
-          longitude: "77.6431",
+            "333/2 Moo 12 Khanong Phra, Pak Chong District, Nakhon Ratchasima 30130 ",
+          oldPrice: 3900,
+          newPrice: 3671,
+          latitude: "14.645499866467322",
+          longitude: "101.45908726733491",
           photos: [
             {
               id: "100",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845616.jpg?k=87bc315f35830189d9a1c935c3e167e648543c27f39ee4cafc5cf73ee24393b9&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/59259089.jpg?k=2e6dce4614036ea57496ee5b4514df0d678bf054e88f639f464d68719bc81538&o=&hp=1",
             },
             {
               id: "101",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845633.jpg?k=19a43441c40e9c9ff3b57d6a1a7c379c4def04730e34f76fd4a298eaefcd23d1&o=&hp=1",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/4b/ca/05/rancho-charnvee-resort.jpg?w=700&h=-1&s=1",
             },
             {
               id: "102",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845621.jpg?k=52411b8fb2fe37edf07da6d3dfb145cc85288ac210f28ff19608ba101f1bba0e&o=&hp=1",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/4b/cc/6e/rancho-charnvee-resort.jpg?w=700&h=-1&s=1",
             },
             {
               id: "103",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845650.jpg?k=36bbad9d47f2db957eddbf922e711fbfc9ab2bf901ceaa1bd5d1ca4dc857f21c&o=&hp=1",
+                "https://q-xx.bstatic.com/xdata/images/hotel/max500/337595039.jpg?k=5e57feab8c2769c860f593c02e750ca2927abbb907b921b1f581571ca2cbafb4&o=",
             },
             {
               id: "104",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845660.jpg?k=0db1ba8f8f2c1de0ded8b1dc30d4f181a52b898b0a9107c5a24f86688cc24c5e&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/337256568.jpg?k=603d354fafa2d86d7bd6a374026e6eb269a3f42b289770274aeff254cf9d59af&o=&hp=1",
             },
             {
               id: "105",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845662.jpg?k=94bdc326cbec92e658a262a7d81387e65ede9d250489b1a3cc6d22d6b9c935ff&o=&hp=1",
+                "https://www.charnveeresortkhaoyai.com/wp-content/uploads/2022/12/2-1-1-1024x682.jpg",
             },
             {
               id: "106",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845665.jpg?k=637ae74710f45147445e49211d54d63a6200b6857f1bd03e38e41cceb0b931eb&o=&hp=1",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfGKd-81TmFbjY579-HsZ5uajReOIWRP1dBJJ1-JPUg&s",
             },
             {
               id: "107",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845623.jpg?k=dc33256ff9ff9eda46683c776c1cf9af04910364ec8d1d9523b8cf80d18cca65&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/337256264.jpg?k=f25ad848bc8cbc7a16fd6ff3da4a9a448eb21db33ab94b7c9ae555d069a9b0cc&o=&hp=1",
             },
             {
               id: "108",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845673.jpg?k=24dd44dc2ac1bfda8aabdbff24571d211f42a4b5cf175fc9043113b61f57f670&o=&hp=1",
+                "https://www.charnveeresortkhaoyai.com/wp-content/uploads/2020/12/chez1-1024x848.jpg",
             },
             {
               id: "109",
-              image: "2",
+              image:
+                "2",
             },
           ],
           rooms: [
@@ -119,65 +120,65 @@ const PlacesScreen = () => {
         {
           id: "11",
           image:
-            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223496641.jpg?k=070266558a879c2926e5511569c4828a007a3e1057b63ccfa30120c859341d1d&o=&hp=1",
-          name: "Regenta Inn Indiranagar Bangalore",
-          rating: 4,
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/421547521.jpg?k=aa2f0c6789c93757a9c717152e37a69b2af0cd4dba6f93b35f8d51ee3f520830&o=&hp=1",
+          name: "The Peri Hotel Khao Yai",
+          rating: 8.1,
           address:
-            " 648/B, Regenta Inn Indiranagar, Binnamangala 1st stage Indiranagar, 560038 Bangalore, India",
-          oldPrice: 4201,
-          newPrice: 3327,
-          latitude: "12.9784",
-          longitude: "77.6408",
+            " 327-330 Moo 9 ,Kudkla road Phaya Yen, Pak Chong District, Nakhon Ratchasima 30320",
+          oldPrice: 3410,
+          newPrice: 2387,
+          latitude: "14.570438012577565",
+          longitude: "101.29700630236002",
           photos: [
             {
               id: "110",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223496641.jpg?k=070266558a879c2926e5511569c4828a007a3e1057b63ccfa30120c859341d1d&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/421547521.jpg?k=aa2f0c6789c93757a9c717152e37a69b2af0cd4dba6f93b35f8d51ee3f520830&o=&hp=1",
             },
             {
               id: "111",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223495252.jpg?k=46de660c903dde8a4250610e13a17241645853c4088d76e7a7741b6bc52ad8ea&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/403902133.jpg?k=42c1f94c0fbda4a6d45415b11a5e3f123e974886179076f6e239372b8d120478&o=&hp=1",
             },
             {
               id: "112",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223494915.jpg?k=b1c09ff0ff09bd86d06861cfebb76a937090f7339a09ca5d53662db340d90cba&o=&hp=1",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJc0wCRXb4xikTLW5vfJawLUkjm1EC7oQQWw&s",
             },
             {
               id: "113",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223498294.jpg?k=445b45130c2315805662dd6df9ad44009097b06e89d01aa0afc473b54ba04af5&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/278159788.jpg?k=a4469bd9c3dc8f44e5983bdb50ba350acffb357290835234b11f40126c4bf736&o=&hp=1",
             },
             {
               id: "114",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223497917.jpg?k=10ebeb3f85490fd2cc9fd3d6f8389ea7f1a35c9e4b29b219bccd6eb89c6a1cd5&o=&hp=1",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3K3morge7bzvPtC8fZFTPVX7qmNUHuwuxQg&s",
             },
             {
               id: "115",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223498097.jpg?k=51244caaa9e4e33ad7d1580b0a1fcf4795c0db3a0fb3d625720e2f0ec7646a1c&o=&hp=1",
+                "https://www.newbangkokliving.com/wp-content/gallery/the-peri-khao-yai-lobby/20210519_170156.jpg",
             },
             {
               id: "116",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223498063.jpg?k=7b456a08a5becb5bf3f9b181719cb9d8d61c8a9e193ab07fe1b5a2c8887da3b6&o=&hp=1",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3VsQJxy2I0IxF4rPQsQ__KOggN8SJ8GVfg&s",
             },
             {
               id: "117",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223497742.jpg?k=7d87188e85821b7b9e1871f898ffe1b8817b1620f3dac4207be18d8946e40d56&o=&hp=1",
+                "https://amazingcouple.net/wp-content/uploads/2021/11/The-Peri-Hotel-Khao-Yai-4.jpg",
             },
             {
               id: "118",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223495166.jpg?k=fc2ba7c31b133d48a0b8c1fce679ef3957de259f4ca0d23534b8e32f983fe9c4&o=&hp=1",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCkGgQLCs_eMQ6ijrLdVjniYONbcTpE-H4XQ&s",
             },
             {
               id: "119",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223494890.jpg?k=4cd3feffb3dd3343be0bd6644a69d070c27824860af763ef7e0490b454799e1b&o=&hp=1",
+                "https://hello2day.com/wp-content/uploads/2021/04/peri-mountain-lodge-khao-yai-45.jpg",
             },
           ],
           rooms: [
@@ -199,7 +200,7 @@ const PlacesScreen = () => {
             },
             {
               id: "205",
-              name: "Deluxe king Room",
+              name: "Two bedroom with balcony",
               size: 490,
               refundable: "refundable",
               payment: "Pay at the property",
@@ -209,61 +210,61 @@ const PlacesScreen = () => {
         },
         {
           id: "12",
-          name: "Bloom Hotel - Bengaluru Airport",
-          rating: 4.2,
+          name: "Te Mata Glamping",
+          rating: 9.5,
           address:
-            "Down Town Park, Sadahalli Gate, Kempegowda Int'l Airport Rd, 562157 Bangalore, India",
-          oldPrice: 3800,
-          newPrice: 3078,
-          latitude: "13.1989",
-          longitude: "77.7068",
+            "97 Moo 6, Nongnamdang, Parkchong, Nakhon Ratchasima 30130",
+          oldPrice: 12540,
+          newPrice: 7499,
+          latitude: "14.647777879378289",
+          longitude: "101.37276190030286",
           image:
-            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430695517.jpg?k=c2559cc321dd56a7beb32262c84d60bc1760430a4a49ac6f8713a2fa03cd0d36&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530997076.jpg?k=f13dffee168b3f694f375aceda46c6a5d98c0698dd9d79a4e8241127dbefa085&o=&hp=1",
           photos: [
             {
               id: "120",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430695517.jpg?k=c2559cc321dd56a7beb32262c84d60bc1760430a4a49ac6f8713a2fa03cd0d36&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530997076.jpg?k=f13dffee168b3f694f375aceda46c6a5d98c0698dd9d79a4e8241127dbefa085&o=&hp=1",
             },
             {
               id: "121",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430695562.jpg?k=ca777d889f58838b1158a9e264b18d8f4ceff509a9fb89d345ef84151fd461b0&o=&hp=1",
+                "https://cdn-60325a43c1ac1806501675f8.closte.com/wp-content/uploads/2021/03/360degree-980x683-01-2.jpg",
             },
             {
               id: "122",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430695518.jpg?k=240da3b294b015aa9268ba4bb8f09c9120bfabd6668ba55678fa5afda1582930&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/356451194.jpg?k=2fd2f81d3e583ececb90204b683a67cf0de2f2d6281382ea86d23f0964ef91c9&o=&hp=1",
             },
             {
               id: "123",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430695521.jpg?k=99fffb6766013b84bc4780be3de5d7a73837062b99501f2cb3b039ebfb957d04&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/356685324.jpg?k=5c9fce8e5bdb11709d51236064b0c486bbaec2b22490d6489c45e6d0b68afa1a&o=&hp=1",
             },
             {
               id: "124",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430695792.jpg?k=c434efe348180f5a1a292b31432f46277bf5e43c7b85bce486665e3f424d0549&o=&hp=1",
+                "https://cdn-60325a43c1ac1806501675f8.closte.com/wp-content/uploads/2021/09/DSC02927-scaled-980x683.jpg",
             },
             {
               id: "125",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430695791.jpg?k=ad248a728c71fffa384e1961e72b5a77462ab58da88c6f3074d5ff20ded68e51&o=&hp=1",
+                "https://cdn-60325a43c1ac1806501675f8.closte.com/wp-content/uploads/2021/07/temata-press-gomagazine.jpg",
             },
             {
               id: "126",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430695896.jpg?k=84734c40aaf7e6960b01e3eb931c24318119d61494ce05cf50831a88b10026cf&o=&hp=1",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/d5/8c/e9/te-mata-glamping.jpg?w=700&h=-1&s=1",
             },
             {
               id: "128",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430696362.jpg?k=41296a49d0c2f96dc4a72eddb9e42fc4b648408dcf5b1ceed2e73add6c5daf5d&o=&hp=1",
+                "https://cdn-60325a43c1ac1806501675f8.closte.com/wp-content/uploads/2021/10/IMG_5292.jpg",
             },
             {
               id: "129",
               image:
-                "https://cf.bstatic.com/xdata/images/hotel/max1280x900/430696348.jpg?k=0a2f5bd39e71a59ae2554974021c8ef8540795758961baf3b48ee9a1b1548bd7&o=&hp=1",
+                "https://images.trvl-media.com/lodging/23000000/22420000/22410900/22410897/014e065f.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
             },
           ],
           rooms: [
@@ -285,7 +286,7 @@ const PlacesScreen = () => {
             },
             {
               id: "205",
-              name: "Deluxe king Room",
+              name: "Two bedroom with balcony",
               size: 490,
               refundable: "refundable",
               payment: "Pay at the property",
@@ -297,10 +298,10 @@ const PlacesScreen = () => {
     },
     {
       id: "2",
-      place: "Hyderabad",
+      place: "Pattaya City",
       placeImage:
-        "https://images.pexels.com/photos/9373357/pexels-photo-9373357.jpeg?auto=compress&cs=tinysrgb&w=800",
-      shortDescription: "City in Telangana, India",
+        "https://a.cdn-hotels.com/gdcs/production47/d265/82394980-276a-4eb6-bb07-e91d0e9fb88e.jpg",
+      shortDescription: "A popular beach on the Gulf of Thailand",
       properties: [
         {
           id: "20",
