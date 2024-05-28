@@ -1,6 +1,6 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import React, { useRef,useEffect } from "react";
-import { useRoute } from "@react-navigation/native";
+import React, { useRef,useEffect,useLayoutEffect } from "react";
+import { useRoute, useNavigation } from "@react-navigation/native";
 import MapView, { Marker } from "react-native-maps";
 
 
@@ -25,6 +25,24 @@ const MapScreen = () => {
         }
     });
   },[])
+  const navigation = useNavigation();
+  useLayoutEffect(() => {
+    navigation.setOptions({
+      headerShown: true,
+      title: "Location",
+      headerTitleStyle: {
+        fontSize: 20,
+        fontWeight: "bold",
+        color: "white",
+      },
+      headerStyle: {
+        backgroundColor: "#003580",
+        height: 110,
+        borderBottomColor: "transparent",
+        shadowColor: "transparent",
+      },
+    });
+  }, []);
   return (
     <View>
       <MapView ref={mapView} style={{ width: "100%", height: "100%" }}>
